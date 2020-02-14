@@ -12,8 +12,8 @@ body{
 
 @media only screen and (min-width: 300px) {
     section,header,footer{
-        max-width: 320px;
-        width: 100%;
+        max-width: 1400px;
+        width: 85%;
         margin: auto;
     }
     //"temporary" fix to svg's screwing with the viewport of mobile by being waaaay too big
@@ -26,5 +26,10 @@ body{
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    section,header,footer{
+        max-width: 1920px;
+        width: 90%;
+        margin: auto;
+    }
 }
 

@@ -34,4 +34,43 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    .access_wrap{
+        padding-top: 4em;
+        padding-bottom: 2.5em;
+    }
+    .access{
+        display: flex;
+        .get_started{
+            width: 50%;
+            @include center;
+            flex-direction: column;
+            .email,.button{
+                box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.25);
+            }
+            .email{
+                width: 70%;
+                padding: .8em 0em .8em 1em;
+                margin-bottom: 1.3em;
+            }
+            .button{
+                width: 30%;
+                padding: 1em 0em 1em 0em;
+                margin-left: -40%;
+            }
+        }
+        article{
+            width: 50%;
+            h1,p{
+                text-align: left;
+            }
+            h1{
+                font-size: 2.5rem;
+                margin-bottom: 1em;
+            }
+            p{
+                width: 75%;
+                font-size: 1.3rem;
+            }
+        }
+    }
 }
