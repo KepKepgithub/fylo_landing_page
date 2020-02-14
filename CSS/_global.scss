@@ -6,6 +6,7 @@
 h1,nav{
     font-family: 'Raleway', sans-serif;
 }
+html, body {width: auto!important; overflow-x: hidden!important} //fixes a weird issue on mobile allowing to move left right when not intended
 body{
     font-family: 'Open Sans', sans-serif;
 }

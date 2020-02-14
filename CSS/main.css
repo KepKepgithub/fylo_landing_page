@@ -11,6 +11,11 @@ h1, nav {
   font-family: 'Raleway', sans-serif;
 }
 
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
